@@ -39,4 +39,5 @@ def predict():
 
 # Démarre le serveur Flask en mode debug
 if __name__ == "__main__":
-    app.run(debug=True)  # Debug=True => permet le rechargement automatique et l'affichage des erreurs
+    app.run(debug=True, host="0.0.0.0", port=5000)
+  # Debug=True => permet le rechargement automatique et l'affichage des erreurs
